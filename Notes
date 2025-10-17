@@ -2,3 +2,4 @@ BigDecimal ve BigInteger
 // Notes
 Linux Commands
 useradd -m <user name>
+password policy: Kullanıcının belirlemiş olduğu şifrenin bazı şartları sağlaması gerekmektedir. Buna password policy ismi verilmektedir.
