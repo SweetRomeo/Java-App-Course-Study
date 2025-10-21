@@ -8,5 +8,6 @@ mkdir -> make directory
 İçinde bilgilerin bulunduğu ikincil belleklere dosya adı verilir.
 Linux/Unix sistemlerinde dosya erişim hakları
 ls -l komutuyla kullanıcı bulunduğu dizindeki dosyaları, group id ve user idleri terminale bastırılır.
-Dosyanın erişim hakları aslında dosya ile hangi işlemlerin yapılıp yapılamacağını belirtir.
-
+- Dosyanın erişim hakları aslında dosya ile hangi işlemlerin yapılıp yapılamacağını belirtir.
+- Dosyanın erişim haklarını değiştirmek için chmod komutu kullanılmaktadır.
+- 
