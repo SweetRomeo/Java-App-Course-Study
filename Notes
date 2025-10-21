@@ -7,4 +7,5 @@ pwd -> print working directory
 mkdir -> make directory
 İçinde bilgilerin bulunduğu ikincil belleklere dosya adı verilir.
 Linux/Unix sistemlerinde dosya erişim hakları
+ls -l komutuyla dosyalar ve group idleri terminale bastırılır.
 
