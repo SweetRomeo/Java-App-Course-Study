@@ -6,4 +6,5 @@ password policy: Kullanıcının belirlemiş olduğu şifrenin bazı şartları 
 pwd -> print working directory
 mkdir -> make directory
 İçinde bilgilerin bulunduğu ikincil belleklere dosya adı verilir.
+Linux/Unix sistemlerinde dosya erişim hakları
 
