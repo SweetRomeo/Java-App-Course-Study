@@ -15,3 +15,4 @@ ls -l komutuyla kullanıcı bulunduğu dizindeki dosyaları, group id ve user id
 - chmod +r print.sh komutu dosyayı okuma iznini açmak için kullanılır.
 - chmod +w print.sh komutu dosyayı yazma iznini açmak için kullanılır.
 - Linuxta geçiş hakkı x olarak ifade edilebilir. Eğer bu hak yok ise bu directory den herhangi bir dosya silinemez hatta dizine geçilemez.
+- 
