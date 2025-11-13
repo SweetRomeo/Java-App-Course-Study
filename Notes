@@ -16,3 +16,14 @@ ls -l komutuyla kullanıcı bulunduğu dizindeki dosyaları, group id ve user id
 - chmod +w print.sh komutu dosyayı yazma iznini açmak için kullanılır.
 - Linuxta geçiş hakkı x olarak ifade edilebilir. Eğer bu hak yok ise bu directory den herhangi bir dosya silinemez hatta dizine geçilemez.
 - 
+
+Gregorian Celandar ve Calender sınıfları
+...
+
+API(Application Programming Interface) nedir?
+Bir yazılım sisteminde uygulama programcısının doğrudan erişebileceği veya çağırabileceği, o sistem ile uygulama programcısı arasında köprü 
+oluşturan metot, sınıfı ya da çeşitli formatlardaki bilgilere denir. API oldukça elastik bir terimdir. Hangi metotlara API denebileceği
+tartışmaya açıktır ancak genel olarak söylemek gerekirse, uygulama programcısını ilgili sistem ile işlemler yaparken detaylardan soyutlayan sınıf, metot
+ya da çeşitli formatlardaki bilgiler anlaşılır. Örneğin, Java API denildiğinde Java sınıfları ve metotlar anlaşılır. Yine örneğin Java 8 Date Time
+API denildiğinde Java 8 ile eklenen tarih-zaman türleri ve metotları anlaşılır. Yine örneğin Merkez Bankası'ından o anki döviz kuru bilgilerini 
+elde edebilmek için erişilen ve yanıt olarak elde edilen bilgilerin tamamına API denilebilir. 
