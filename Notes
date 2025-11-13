@@ -33,4 +33,8 @@ Bu kavramların sınırları tam olarak belli değildir. Değişik kaynaklarda d
 diyebilmek için aşağıdaki iki özelliğin bulunması yönünde bir eğilim vardır:
 
 1-) Karmaşıklığın kullanıcıya daha basit gösterilmesi ve detayların yani yük oluşturan kısımların kullanıcının üzerinden alınmasıdır.
-2-) Kod akışl
+2-) Kod akışının ele geçirilmesi(yani yönetilmesi) ve duruma göre programcıya belli zamanlarda verilmesi. Buna genel olarak inversion of Control(IOC) de denilmektedir.
+
+Kütüphanelerde arka planda bir takım işlemler kullanıcılar için yapılır. Akışın ele geçirilmesi gibi bir amaç yoktur. Kütüphanelerde program akışı kullanıcıdadır.
+Programcı isterse kütüphaneye ilişkin sınıfları ve metotları kullanabilir. Şüphesiz pek çok framework aynı zamanda birden fazla kütüphaneye ve API'lere sahiptir.
+Bazı durumlarda o sistemin bir framework mü yoksa bir kütüphane mi olduğu konusunda tereddütler olabilir.
