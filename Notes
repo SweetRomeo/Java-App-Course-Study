@@ -38,3 +38,6 @@ diyebilmek için aşağıdaki iki özelliğin bulunması yönünde bir eğilim v
 Kütüphanelerde arka planda bir takım işlemler kullanıcılar için yapılır. Akışın ele geçirilmesi gibi bir amaç yoktur. Kütüphanelerde program akışı kullanıcıdadır.
 Programcı isterse kütüphaneye ilişkin sınıfları ve metotları kullanabilir. Şüphesiz pek çok framework aynı zamanda birden fazla kütüphaneye ve API'lere sahiptir.
 Bazı durumlarda o sistemin bir framework mü yoksa bir kütüphane mi olduğu konusunda tereddütler olabilir.
+
+Nested Types
+
