@@ -42,6 +42,11 @@ Bazı durumlarda o sistemin bir framework mü yoksa bir kütüphane mi olduğu k
 Nested Types
 
 - API, Library ve Framework Kavramları
-
+API(Application Programming Interface): Bir yazılım sisteminde uygulama programcısının doğrudan veya çağırabileceği, o sistem ile programcısı arasında köprü oluşturan metot,
+sınıfı ya da çeşitli formatlardaki bilgilere denir. API oldukça elastik bir terimdir. Hangi metotlara API denebileceği tartışmaya açıktır ancak genel olarak söylemek gerekirse,
+uygulama programcısını ilgili sistem ile işlemler yaparken detaylardan soyutlayan sınıf, metot ya da çeşitli formatlardaki bilgiler anlaşılır. Örneğin, Java API dendiğinde Java
+sınıfları ve metotlar anlaşılır. Yine örneğin Java 8 Date Time API dendiğinde Java 8 ile eklenen tarih-zaman türleri ve metotları anlaşılır. Yine örneğin Merkez Bankası'ından 
+o anki döviz kuru bilgilerini elde edebilmek için erişilen ve yanıt olarak elde edilen bilgilerin tamamına API denilebilir. Yine örneğin, Windows API dendiğinde Windows işletim
+sisteminde temel işlemler yapmak için kullanılan aşağı seviyeli fonksiyonlar anlaşılır.
 
 
