@@ -2,6 +2,7 @@ Maven
 Maven'ın kendine özgü pek çok komutu vardır. Bu komutlar çalıştırılırken bir default directory oluşturulur.
 mvn clean install -> localde bulunan dependencyleri temizle ve maven centredan tekrar locale ekle
 Mavenda Dependecyler -> import bildirimleri sanıldığı gibi kütüphane dahil etmek değildir. Ancak mavendaki dependency'ler kütüphane dahil etmeye bir örnektir.
+import bildirimleri aslında isim aramaya dahil etmek anlamına gelmektedir.
 
 
 BigDecimal ve BigInteger
