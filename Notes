@@ -4,7 +4,7 @@ mvn clean install -> localde bulunan dependencyleri temizle ve maven centredan t
 Mavenda Dependencyler -> import bildirimleri sanıldığı gibi kütüphane dahil etmek değildir. Ancak mavendaki dependency'ler kütüphane dahil etmeye bir örnektir.
 import bildirimleri aslında isim aramaya dahil etmek anlamına gelmektedir.
 Anahtar Notlar: pom.xml dosyasının içerine göre bir jar dosyası elde edilmektedir. pom.xml'in temel komponenti dependencylerdir. Bunlar ile popüler pek çok kütüphane
-projeye dahil edilip kullanılabilir. Jar dosyalarının içerisinde de
+projeye dahil edilip kullanılabilir. Elde edilen jar dosyasında mavenda bulunan dependencyler gömülüdür.
 
 BigDecimal ve BigInteger
 // Notes
