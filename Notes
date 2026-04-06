@@ -6,6 +6,10 @@ import bildirimleri aslında isim aramaya dahil etmek anlamına gelmektedir.
 Anahtar Notlar: pom.xml dosyasının içerine göre bir jar dosyası elde edilmektedir. pom.xml'in temel komponenti dependencylerdir. Bunlar ile popüler pek çok kütüphane
 projeye dahil edilip kullanılabilir. Elde edilen jar dosyasında mavenda bulunan dependencyler gömülüdür.
 
+Mavenda bulunan dependencylerde Javadaki gibi bir arama söz konusudur. Bu arama sırasıyla:
+1-) Maven Localde
+2-) Maven Centralda
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
