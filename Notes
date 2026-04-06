@@ -1,5 +1,6 @@
 Maven
 Maven'ın kendine özgü pek çok komutu vardır. Bu komutlar çalıştırılırken bir default directory oluşturulur.
+mvn clean install
 
 BigDecimal ve BigInteger
 // Notes
