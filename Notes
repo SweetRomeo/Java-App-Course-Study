@@ -3,6 +3,7 @@ Maven'ın kendine özgü pek çok komutu vardır. Bu komutlar çalıştırılır
 mvn clean install -> localde bulunan dependencyleri temizle ve maven centredan tekrar locale ekle
 Mavenda Dependecyler -> import bildirimleri sanıldığı gibi kütüphane dahil etmek değildir. Ancak mavendaki dependency'ler kütüphane dahil etmeye bir örnektir.
 import bildirimleri aslında isim aramaya dahil etmek anlamına gelmektedir.
+Anahtar Notlar: pom.xml dosyasının içerine göre bir jar dosyası elde edilmektedir.
 
 
 BigDecimal ve BigInteger
