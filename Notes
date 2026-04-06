@@ -1,3 +1,4 @@
+Ders 1-2
 Maven
 Maven'ın kendine özgü pek çok komutu vardır. Bu komutlar çalıştırılırken bir default directory oluşturulur.
 mvn clean install -> localde bulunan dependencyleri temizle ve maven centredan tekrar locale ekle
@@ -5,6 +6,22 @@ Mavenda Dependencyler -> import bildirimleri sanıldığı gibi kütüphane dahi
 import bildirimleri aslında isim aramaya dahil etmek anlamına gelmektedir.
 Anahtar Notlar: pom.xml dosyasının içerine göre bir jar dosyası elde edilmektedir. pom.xml'in temel komponenti dependencylerdir. Bunlar ile popüler pek çok kütüphane
 projeye dahil edilip kullanılabilir. Elde edilen jar dosyasında mavenda bulunan dependencyler gömülüdür.
+
+Maven Bağımlılık Yönetimi (Dependency Management) Örneği:
+
+İki adet kütüphanemiz olsun: LibraryUser ve LibraryUsed. Bu senaryoda LibraryUser projesi, çalışabilmek için LibraryUsed kütüphanesine bağımlıdır (dependency).
+
+Ana projemiz ise LibraryUser kütüphanesini kullanmaktadır. Programcı, LibraryUser'ın halihazırda LibraryUsed'u getirdiğini bilmeden, LibraryUsed'u ana projenin pom.xml 
+dosyasına tekrar bağımlılık olarak ekleyebilir.
+
+Bu durum Maven kullanırken herhangi bir soruna neden olmaz. Maven'ın Transitive Dependency (Geçişli Bağımlılık) çözümlemesi sayesinde mükerrer isim veya yükleme hataları 
+engellenir.
+
+Ancak, acemi bir programcı LibraryUsed kütüphanesinin .jar dosyasını projeye manuel olarak gömerse (örneğin build path'e doğrudan ekleyerek), bu durum isim aramada bir 
+karmaşaya, teknik adıyla Classpath Conflict (veya JAR Hell) sorununa sebebiyet verecektir. ClassLoader hangi JAR'daki sınıfları yükleyeceğini bilemeyeceği için çalışma 
+zamanında (runtime) öngörülemeyen hatalara yol açar.
+-------------------------------------------------------
+Ders 3
 
 Mavenda bulunan dependencylerde Javadaki gibi bir arama söz konusudur. Bu arama sırasıyla:
 1-) Maven Localde
