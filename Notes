@@ -22,6 +22,8 @@ karmaşaya, teknik adıyla Classpath Conflict (veya JAR Hell) sorununa sebebiyet
 zamanında (runtime) öngörülemeyen hatalara yol açar.
 -------------------------------------------------------
 Ders 3
+Maven ile kütüphane kullanımı
+Genel olarak bir kütüphane maven build ile 
 
 Mavenda bulunan dependencylerde Javadaki gibi bir arama söz konusudur. Bu arama sırasıyla:
 1-) Maven Localde
