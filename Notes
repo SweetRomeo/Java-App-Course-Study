@@ -36,6 +36,11 @@ Mavenda bulunan dependencylerde Javadaki gibi bir arama söz konusudur. Bu arama
 2-) Maven Centralda
 3-) Maven Remote Repository'den
 
+Yazılım Test Süreçleri:
+- Beta Testing
+- Alfa Testing
+- Release Testing
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
