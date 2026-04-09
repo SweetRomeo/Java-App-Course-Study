@@ -51,6 +51,7 @@ Bazı test yöntemleri aşağıdaki gibidir:
 -> Test metotlarının her biri @Test annotationı ile bildirilir.
 -> Test metotları void, non-static ve no-modifier özellik gösterir.
 -> Test metotlarında en sık kullanılan metotlar assertTrue, assertFalse ve assertEquals isimli metotlardır.
+-> Programcı bir testi disaple etmek için @Disapled annotation'ı kullanılır.
 
 
 BigDecimal ve BigInteger
