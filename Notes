@@ -38,6 +38,8 @@ Mavenda bulunan dependencylerde Javadaki gibi bir arama söz konusudur. Bu arama
 
 Ders 4
 Yazılım Test Süreçleri:
+Javada kullanılan temel birim testi aracına JUnit adı verilir. Ancak Spring gibi popüler framework'lere ait olan ya da olmayan 
+bir çok farklı araç da söz konusudur.
 - Manuel birim testi: En basit test yönteminidir. Üretimde pek de kullanılan bir yöntem değildir.
 - Beta Testing
 - Alfa Testing
