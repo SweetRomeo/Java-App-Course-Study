@@ -46,6 +46,12 @@ Bazı test yöntemleri aşağıdaki gibidir:
 - Alfa Testing
 - Release Testing
 
+-> Test sınıfları genellikle test edilecek metot isminin sonuna Test konularak yazılır. 
+-> Test sınıflarında yalnızca test metotları bulunur.
+-> Test metotlarının her biri @Test annotationı ile bildirilir.
+-> Test metotları void, non-static ve no-modifier özellik gösterir.
+
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
