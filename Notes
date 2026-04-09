@@ -38,6 +38,7 @@ Mavenda bulunan dependencylerde Javadaki gibi bir arama söz konusudur. Bu arama
 
 Ders 4
 Yazılım Test Süreçleri:
+- Manuel birim testi: En basit test yönteminidir. Üretimde pek de kullanılan bir yöntem değildir.
 - Beta Testing
 - Alfa Testing
 - Release Testing
