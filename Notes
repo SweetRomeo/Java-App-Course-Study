@@ -52,7 +52,8 @@ Bazı test yöntemleri aşağıdaki gibidir:
 -> Test metotları void, non-static ve no-modifier özellik gösterir.
 -> Test metotlarında en sık kullanılan metotlar assertTrue, assertFalse ve assertEquals isimli metotlardır.
 -> Programcı bir testi disable etmek için @Disabled annotation'ı kullanılır.
--> @ParameterizedTest annotation'ı bir değer kaynağından 
+-> @ParameterizedTest annotation'ı bir değer kaynağından test yapıldığını ifade etmek için yapılır. Bu annotation her zaman @ValueSource 
+annotation'ı ile birlikte kullanılır. Bu annotationda belki değer kümeleri olur.
 
 BigDecimal ve BigInteger
 // Notes
