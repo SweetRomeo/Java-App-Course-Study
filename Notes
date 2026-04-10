@@ -36,7 +36,7 @@ Mavenda bulunan dependencylerde Javadaki gibi bir arama söz konusudur. Bu arama
 2-) Maven Centralda
 3-) Maven Remote Repository'den
 
-Ders 4
+Ders 4-5
 Yazılım Test Süreçleri:
 Javada kullanılan temel birim testi aracına JUnit adı verilir. Ancak Spring gibi popüler framework'lere ait olan ya da olmayan 
 bir çok farklı araç da söz konusudur.
@@ -57,6 +57,8 @@ annotation'ı ile birlikte kullanılır. Bu annotationda belki değer kümeleri 
 -> @ValueSource annotation'ı ile doğrudan değerler test edilebileceği gibi dosya pathı verilerek txt gibi dosyalarla test yapılabilir.
 -> @CsvFileSource annotation'ı ile birlikte belirtilen pathteki csv dosyalarıyla test yapılması mümkündür.
 -> @Order(<sıra numarası>) annotation'ı kullanılarak testler programcının belirlediği sıraya göre yapılabilir.
+
+Ders 6
 
 
 BigDecimal ve BigInteger
