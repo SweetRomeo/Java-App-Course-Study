@@ -56,6 +56,7 @@ Bazı test yöntemleri aşağıdaki gibidir:
 annotation'ı ile birlikte kullanılır. Bu annotationda belki değer kümeleri olur.
 -> @ValueSource annotation'ı ile doğrudan değerler test edilebileceği gibi dosya pathı verilerek txt gibi dosyalarla test yapılabilir.
 -> @CsvFileSource annotation'ı ile birlikte belirtilen pathteki csv dosyalarıyla test yapılması mümkündür.
+-> @Order(<sıra numarası>) annotation'ı kullanılarak testler programcının belirlediği sıraya göre yapılabilir.
 
 BigDecimal ve BigInteger
 // Notes
