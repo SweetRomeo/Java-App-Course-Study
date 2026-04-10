@@ -55,6 +55,7 @@ Bazı test yöntemleri aşağıdaki gibidir:
 -> @ParameterizedTest annotation'ı bir değer kaynağından test yapıldığını ifade etmek için yapılır. Bu annotation her zaman @ValueSource 
 annotation'ı ile birlikte kullanılır. Bu annotationda belki değer kümeleri olur.
 -> @ValueSource annotation'ı ile doğrudan değerler test edilebileceği gibi dosya pathı verilerek txt gibi dosyalarla test yapılabilir.
+-> @CsvFileSource annotation'ı ile birlikte belirtilen pathteki csv dosyalarıyla test yapılması mümkündür.
 
 BigDecimal ve BigInteger
 // Notes
