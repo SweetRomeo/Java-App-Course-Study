@@ -18,6 +18,13 @@ class IsPrimeTest {
 
     assertTrue(NumberUtil.isPrime(input));
   }  
+  @Disabled("It can take too much time in some computers")
+  @ParameterizedTest
+  @ValueSource(longs = {6584583408148485263L, 6245098347044246839L, 4434895834573449257L, 5697859706174583067L})
+  void Test(long val)
+  {
+      assertTrue(NumberUtil.isPrime(val));
+  }  
 }
 
 /*---------------------------------------------
