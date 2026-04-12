@@ -112,7 +112,7 @@ var seconds = (end - start) / 1_000_000_000.;
 System.out.printf("Duration: %f%n", seconds);
 ---------------------------------------------
 Ders 7
-
+System sınıfının currentTimeMillis metodu 
 
 
 BigDecimal ve BigInteger
