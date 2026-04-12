@@ -65,6 +65,8 @@ input: Test yapalacak birimin girdisidir.
 expected: Test yapılacak birimin beklenen sonucudur.
 actual: Test yapılacak birimden elde edilen sonuçtur.
 
+###var Değişkenler###
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
