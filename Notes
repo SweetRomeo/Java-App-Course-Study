@@ -86,6 +86,10 @@ var sözcüğü kullanılan değişkenlerde type deduction gerçekleşir. Bu dur
 
 -> Özellikle lambda ifadeleri gibi uzun türlerde var sözcüğü sıkça kullanılır.
 
+Kodun Çalışma Süresinin ölçülmesi
+
+Özellikle performans hesaplama gibi çalışmalarda kod parçasının(code snippet) ne kadar sürede tamamlandığının ölçülmesi gerekebilir.
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
