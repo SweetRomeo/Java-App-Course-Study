@@ -57,7 +57,7 @@ annotation'ı ile birlikte kullanılır. Bu annotationda belki değer kümeleri 
 -> @ValueSource annotation'ı ile doğrudan değerler test edilebileceği gibi dosya pathı verilerek txt gibi dosyalarla test yapılabilir.
 -> @CsvFileSource annotation'ı ile birlikte belirtilen pathteki csv dosyalarıyla test yapılması mümkündür.
 -> @Order(<sıra numarası>) annotation'ı kullanılarak testler programcının belirlediği sıraya göre yapılabilir.
-
+--------------------------------------------------------------------------------
 Ders 6
 setup: Test metodunun çağrılmasından önce yapılması gereken ilk işlemlerdir.
 teardown: test metodunun çağrılmasından sonra yapılması gereken son işlemlerdir.
@@ -110,6 +110,8 @@ var start = System.nanoTime();
 var end = System.nanoTime();
 var seconds = (end - start) / 1_000_000_000.;
 System.out.printf("Duration: %f%n", seconds);
+---------------------------------------------
+Ders 7
 
 
 
