@@ -71,6 +71,8 @@ var sözcüğü Java 10 ile birlikte dile eklenmiştir. var sonradan eklendiği 
 Bu tarz sözcüklere programlamada contextual keyword de denildiğini anımsayınız. var yalnızca yerel değişkenlerde ve Java 11 ile birlikte ileride ede alacağımız lambda ifadeleri
 ile birlikte kullanılabilmektedir. var değişkenlerin ilk değerlenmesi(initialize edilmesi) zorunludur.  
 
+var a; // error
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
