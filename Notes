@@ -73,6 +73,11 @@ ile birlikte kullanılabilmektedir. var değişkenlerin ilk değerlenmesi(initia
 
 var a; // error
 
+Derleyici ilk değer verilen ifadenin türüne göre değişkenin türüne tespit eder. Derleyicinin bir değişkenin türünü tespit etmesi kavramına type inference ya da type deduction
+var sözcüğü kullanılan değişkenlerde type deduction gerçekleşir. Bu durum C++'daki auto anahtar sözcüğü ile benzerlik göstermektedir.
+
+var 
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
