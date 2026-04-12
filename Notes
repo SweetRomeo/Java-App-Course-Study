@@ -82,6 +82,8 @@ var sözcüğü kullanılan değişkenlerde type deduction gerçekleşir. Bu dur
 
 -> var sözcüğünün kullanımı okunabilirliği azaltmaz aksine son derece faydalıdır. Üretimde sıkça tercih edilen bir anahtar sözcüktür.
 
+-> Metotların parametre değişkenlerinin türü var olamaz. Bu durum doğrudan sentaks hatasıdır.
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
