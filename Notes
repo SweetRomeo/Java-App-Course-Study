@@ -76,7 +76,11 @@ var a; // error
 Derleyici ilk değer verilen ifadenin türüne göre değişkenin türüne tespit eder. Derleyicinin bir değişkenin türünü tespit etmesi kavramına type inference ya da type deduction
 var sözcüğü kullanılan değişkenlerde type deduction gerçekleşir. Bu durum C++'daki auto anahtar sözcüğü ile benzerlik göstermektedir.
 
-var 
+-> var değişkenler for döngüsünde kullanılır. Bu üretimde sıkça kullanılan bir yöntemdir.
+
+-> var değişkenler virgül ile ayrılamaz. Bu doğrudan sentaks hatasıdır.
+
+-> var sözcüğünün kullanımı okunabilirliği azaltmaz aksine son derece faydalıdır. Üretimde sıkça tercih edilen bir anahtar sözcüktür.
 
 BigDecimal ve BigInteger
 // Notes
