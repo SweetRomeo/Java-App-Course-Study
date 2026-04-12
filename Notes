@@ -59,7 +59,11 @@ annotation'ı ile birlikte kullanılır. Bu annotationda belki değer kümeleri 
 -> @Order(<sıra numarası>) annotation'ı kullanılarak testler programcının belirlediği sıraya göre yapılabilir.
 
 Ders 6
-
+setup: Test metodunun çağrılmasından önce yapılması gereken ilk işlemlerdir.
+teardown: test metodunun çağrılmasından sonra yapılması gereken son işlemlerdir.
+input: Test yapalacak birimin girdisidir.
+expected: Test yapılacak birimin beklenen sonucudur.
+actual: Test yapılacak birimden elde edilen sonuçtur.
 
 BigDecimal ve BigInteger
 // Notes
