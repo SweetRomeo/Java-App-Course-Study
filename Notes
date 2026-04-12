@@ -90,6 +90,14 @@ Kodun Çalışma Süresinin ölçülmesi
 
 Özellikle performans hesaplama gibi çalışmalarda kod parçasının(code snippet) ne kadar sürede tamamlandığının ölçülmesi gerekebilir.
 
+var start = System.currentTimeMillis();
+// code
+var end = System.currentTimeMillis();
+var seconds = (end - start) / 1_000_000_000.
+System.out.printf("Duration: %f%n", seconds);
+
+Yukarıdaki kod bloğunda kodun çalışma hızı hesaplanmaktadır.
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
