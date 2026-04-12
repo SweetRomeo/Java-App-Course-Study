@@ -65,7 +65,10 @@ input: Test yapalacak birimin girdisidir.
 expected: Test yapılacak birimin beklenen sonucudur.
 actual: Test yapılacak birimden elde edilen sonuçtur.
 
-###var Değişkenler###
+'var Değişkenler'
+
+var sözcüğü Java 10 ile birlikte dile eklenmiştir. var sonradan eklendiği için kullanıldığı yere göre değişken ismi veya anahtar sözcük gibi ele alınabilir.
+Bu tarz sözcüklere programlamada con
 
 BigDecimal ve BigInteger
 // Notes
