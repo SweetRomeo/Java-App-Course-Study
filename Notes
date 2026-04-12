@@ -84,6 +84,8 @@ var sözcüğü kullanılan değişkenlerde type deduction gerçekleşir. Bu dur
 
 -> Metotların parametre değişkenlerinin türü var olamaz. Bu durum doğrudan sentaks hatasıdır.
 
+-> Özellikle lambda ifadeleri gibi uzun türlerde var sözcüğü sıkça kullanılır.
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
