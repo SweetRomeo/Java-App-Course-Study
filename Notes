@@ -1,4 +1,4 @@
-Ders 1-2
+# Ders 1-2
 Maven
 Maven'ın kendine özgü pek çok komutu vardır. Bu komutlar çalıştırılırken bir default directory oluşturulur.
 mvn clean install -> localde bulunan dependencyleri temizle ve maven centredan tekrar locale ekle
