@@ -69,7 +69,7 @@ var Değişkenler
 
 var sözcüğü Java 10 ile birlikte dile eklenmiştir. var sonradan eklendiği için kullanıldığı yere göre değişken ismi veya anahtar sözcük gibi ele alınabilir.
 Bu tarz sözcüklere programlamada contextual keyword de denildiğini anımsayınız. var yalnızca yerel değişkenlerde ve Java 11 ile birlikte ileride ede alacağımız lambda ifadeleri
-ile birlikte kullanılabilmektedir. 
+ile birlikte kullanılabilmektedir. var değişkenlerin ilk değerlenmesi(initialize edilmesi) zorunludur.  
 
 BigDecimal ve BigInteger
 // Notes
