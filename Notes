@@ -116,6 +116,10 @@ System sınıfının currentTimeMillis metodu
 
 Google'ın Guava kütüphanesinde zaman işlemleri yapan metotlar mevcuttur.
 
+- Bu derste bir stopWatch sınıfı yazıldı. java dosyasından ulaşılabilir.
+
+Değişken Sayıda Argüman alan Metotlar
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
