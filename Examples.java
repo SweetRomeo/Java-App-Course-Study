@@ -73,7 +73,9 @@ public class StopWatch {
     return timeUnit.convert(m_stop - m_start, TimeUnit.NANOSECONDS);
   }  
 }
+/*---------------------------------------------
 
+----------------------------------------------*/
 /*---------------------------------------------
 BigInteger ve BigDecimal sınıfları
 ----------------------------------------------*/
