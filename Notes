@@ -114,6 +114,7 @@ System.out.printf("Duration: %f%n", seconds);
 Ders 7
 System sınıfının currentTimeMillis metodu 
 
+Google'ın Guava kütüphanesinde zaman işlemleri yapan metotlar mevcuttur.
 
 BigDecimal ve BigInteger
 // Notes
