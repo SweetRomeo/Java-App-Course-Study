@@ -122,7 +122,8 @@ Değişken Sayıda Argüman alan Metotlar
 - Bu tarz metotlara verilecek en popüler örneklerden bir tanesi printf metodudur.
 - Bu metotlarda her ellipsis atomu bulunmaktadır.
 - Ellipsis atomu bulunan metotlar aslında dizi referans gibi ele alır. 
-- Ellipsis parametre her zaman metodun son parametresi olmalıdır.
+- Ellipsis parametre her zaman metodun son parametresi olmalıdır. Aksi durumda error oluşur.
+- hem ellipsis parametreli hem de aynı 
 
 
 BigDecimal ve BigInteger
