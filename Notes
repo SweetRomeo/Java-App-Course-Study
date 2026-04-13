@@ -119,6 +119,7 @@ Google'ın Guava kütüphanesinde zaman işlemleri yapan metotlar mevcuttur.
 - Bu derste bir stopWatch sınıfı yazıldı. java dosyasından ulaşılabilir.
 
 Değişken Sayıda Argüman alan Metotlar
+Bu tarz metotlara verilecek en popüler örneklerden bir tanesi printf metodudur.
 
 BigDecimal ve BigInteger
 // Notes
