@@ -119,7 +119,11 @@ Google'ın Guava kütüphanesinde zaman işlemleri yapan metotlar mevcuttur.
 - Bu derste bir stopWatch sınıfı yazıldı. java dosyasından ulaşılabilir.
 
 Değişken Sayıda Argüman alan Metotlar
-Bu tarz metotlara verilecek en popüler örneklerden bir tanesi printf metodudur.
+- Bu tarz metotlara verilecek en popüler örneklerden bir tanesi printf metodudur.
+- Bu metotlarda her ellipsis atomu bulunmaktadır.
+- Ellipsis atomu bulunan metotlar aslında dizi referans gibi ele alır. 
+- Ellipsis parametre her zaman metodun son parametresi olmalıdır.
+
 
 BigDecimal ve BigInteger
 // Notes
