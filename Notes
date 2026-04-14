@@ -154,6 +154,10 @@ bir mesaj bilgisine sahiptir. Bu sayede proje geçmişi izlenebilir.
 6-) Pull
 7-) Push
 
+git rm --cached .
+komutuyla gite eklenmiş olan dosyaları çıkarılabilir.
+
+
 BigDecimal ve BigInteger
 // Notes
 Linux Commands
