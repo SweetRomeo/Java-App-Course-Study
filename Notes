@@ -139,12 +139,16 @@ geçmişi git tarafından tutulur. Kopyalayan kişi de kendi localinde bir geçm
 
 git kurulumu
 
+git komut satırından çalışan bir uygulamadır. Tipik olarak tüm sistemler için geliştirilmiştir. Unix/Linux sistemleri ve Mac OS X sistemleri için ilgili paket yöneticisi 
+kullanılarak kurulabilmektedir. Windows için git download bağlantısından kurulum detayları incelenebilir.
+
 Temel Kavramlar
 1-) Repository: Proje dosyalarının bulunduğu yerdir. Bunun ingilizce diğer bir adı storage space'dir. git'de repository ikiye ayrılır:
     - Local Repository: Proje dosyalarının yerel makinedeki kopyalarıdır.
     - Remote Repository: Projenin ana dosyalarının bulunduğu yerdir.
-2-) Commits: Projenin belirli bir zamandaki anlık durumudur(snapshot).
-3-) Branches
+2-) Commits: Projenin belirli bir zamandaki anlık durumudur(snapshot). Her commit işlemi unique olarak bir hash bilgisine sahiptir ve yapılan değişiklerinin belirlenebildiği
+bir mesaj bilgisine sahiptir. Bu sayede proje geçmişi izlenebilir.
+3-) Branches: Geliştirme aşamasında
 4-) Merge
 5-) Clone
 6-) Pull
