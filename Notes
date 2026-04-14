@@ -130,6 +130,9 @@ Ellipsin parametreli metotlarda overloading kuralları
 - int -> int dönüşümü int -> int... dönüşümüne göre daha iyi bir dönüşümdür.
 - int -> int... dönüşümü int -> long... dönüşümüne kıyasla daha iyi bir dönüşümdür.
 
+git Version Kontrol Sistemi
+
+
 
 BigDecimal ve BigInteger
 // Notes
