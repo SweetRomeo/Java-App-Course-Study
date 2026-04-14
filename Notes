@@ -137,6 +137,18 @@ ve güvenli bir biçimde yapılan işlemlerin geçmişini(history) tutabilmesidi
 da kopyalanıp aynı anda geliştirme yapılabilmektedir. Kendi localinde çalışan yazılımcılar aynı zamanda yaptıklarını ana bilgisayara da aktarabilirler ve bütün bu yapılanların
 geçmişi git tarafından tutulur. Kopyalayan kişi de kendi localinde bir geçmişe sahip olabilir. git üzerinde burada anlatılanlar ve diğer detaylar için bir terminoloji bulunmaktadır.
 
+git kurulumu
+
+Temel Kavramlar
+1-) Repository: Proje dosyalarının bulunduğu yerdir. Bunun ingilizce diğer bir adı storage space'dir. git'de repository ikiye ayrılır:
+    - Local Repository: Proje dosyalarının yerel makinedeki kopyalarıdır.
+    - Remote Repository: Projenin ana dosyalarının bulunduğu yerdir.
+2-) Commits
+3-) Branches
+4-) Merge
+5-) Clone
+6-) Pull
+7-) Push
 
 BigDecimal ve BigInteger
 // Notes
