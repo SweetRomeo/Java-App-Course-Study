@@ -133,7 +133,9 @@ Ellipsin parametreli metotlarda overloading kuralları
 git Version Kontrol Sistemi
 git özellikle yazılım geliştirmede kullanılan bir versiyon takip aracıdır. git, 2005 senesinde Linus Torvalds tarafından Linux çekirdek projesi(Linux Kernel Project)
 kapsamında geliştirilmiştir. İlerleyen senelerde pek çok firma ve geliştirici tarafından kullanılır duruma gelmiştir. git'in önemli iki özelliği dağıtık(distributed) olması 
-ve güvenli 
+ve güvenli bir biçimde yapılan işlemlerin geçmişini(history) tutabilmesidir. Dağıtım demekle, git ile çalışan bir proje bulunduğu ana bilgisayarın dışında başka bilgisayarlara
+da kopyalanıp aynı anda geliştirme yapılabilmektedir. Kendi localinde çalışan yazılımcılar aynı zamanda yaptıklarını ana bilgisayara da aktarabilirler ve bütün bu yapılanların
+geçmişi git tarafından tutulur. Kopyalayan kişi de kendi localinde bir geçmişe sahip olabilir. git üzerinde burada anlatılanlar ve diğer detaylar için bir terminoloji bulunmaktadır.
 
 
 BigDecimal ve BigInteger
