@@ -148,7 +148,7 @@ Temel Kavramlar
     - Remote Repository: Projenin ana dosyalarının bulunduğu yerdir.
 2-) Commits: Projenin belirli bir zamandaki anlık durumudur(snapshot). Her commit işlemi unique olarak bir hash bilgisine sahiptir ve yapılan değişiklerinin belirlenebildiği
 bir mesaj bilgisine sahiptir. Bu sayede proje geçmişi izlenebilir.
-3-) Branches: Geliştirme aşamasında
+3-) Branches: Geliştirme aşamasında ayrı yolu belirtir. Default branch main ya da master olarak isimlendirilir. 
 4-) Merge
 5-) Clone
 6-) Pull
