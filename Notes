@@ -143,7 +143,7 @@ Temel Kavramlar
 1-) Repository: Proje dosyalarının bulunduğu yerdir. Bunun ingilizce diğer bir adı storage space'dir. git'de repository ikiye ayrılır:
     - Local Repository: Proje dosyalarının yerel makinedeki kopyalarıdır.
     - Remote Repository: Projenin ana dosyalarının bulunduğu yerdir.
-2-) Commits
+2-) Commits: Projenin belirli bir zamandaki anlık durumudur(snapshot).
 3-) Branches
 4-) Merge
 5-) Clone
