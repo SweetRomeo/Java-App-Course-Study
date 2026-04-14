@@ -131,7 +131,9 @@ Ellipsin parametreli metotlarda overloading kuralları
 - int -> int... dönüşümü int -> long... dönüşümüne kıyasla daha iyi bir dönüşümdür.
 
 git Version Kontrol Sistemi
-
+git özellikle yazılım geliştirmede kullanılan bir versiyon takip aracıdır. git, 2005 senesinde Linus Torvalds tarafından Linux çekirdek projesi(Linux Kernel Project)
+kapsamında geliştirilmiştir. İlerleyen senelerde pek çok firma ve geliştirici tarafından kullanılır duruma gelmiştir. git'in önemli iki özelliği dağıtık(distributed) olması 
+ve güvenli 
 
 
 BigDecimal ve BigInteger
