@@ -124,6 +124,11 @@ Değişken Sayıda Argüman alan Metotlar
 - Ellipsis atomu bulunan metotlar aslında dizi referans gibi ele alır. 
 - Ellipsis parametre her zaman metodun son parametresi olmalıdır. Aksi durumda error oluşur.
 - hem ellipsis parametreli hem de aynı 
+--------------------------------------------
+Ders 8
+Ellipsin parametreli metotlarda overloading kuralları
+- int -> int dönüşümü int -> int... dönüşümüne göre daha iyi bir dönüşümdür.
+- int -> int... dönüşümü int -> long... dönüşümüne kıyasla daha iyi bir dönüşümdür.
 
 
 BigDecimal ve BigInteger
