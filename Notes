@@ -167,7 +167,8 @@ BigDecimal ve BigInteger
 // Notes
 Linux Commands
 useradd -m <user name>
-password policy: Kullanıcının belirlemiş olduğu şifrenin bazı şartları sağlaması gerekmektedir. Buna password policy ismi verilmektedir.
+password policy: Kullanıcının belirlemiş olduğu şifrenin bazı şartları sağlaması gerekmektedir. Buna password policy ismi verilmektedir. Örneğin şifrede en az birer tane büyük
+ve küçük harf içerilmesi gibi zorunluluklar buna örnektir. Burada amaç şüphesiz şifrenin güvenilir olmasıdır.
 pwd -> print working directory
 mkdir -> make directory
 İçinde bilgilerin bulunduğu ikincil belleklere dosya adı verilir.
