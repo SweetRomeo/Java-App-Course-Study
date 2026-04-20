@@ -94,22 +94,23 @@ class var{} // error
 Kodun Çalışma Süresinin ölçülmesi
 
 Özellikle performans hesaplama gibi çalışmalarda kod parçasının(code snippet) ne kadar sürede tamamlandığının ölçülmesi gerekebilir.
-
+```java
 var start = System.currentTimeMillis();
 // code
 var end = System.currentTimeMillis();
 var seconds = (end - start) / 1000.;
 System.out.printf("Duration: %f%n", seconds);
-
+```
 Yukarıdaki kod bloğunda kodun çalışma hızı hesaplanmaktadır.
 
 Bu hesabın daha kritik şekilde yapılması içinde ise kodun nanosaniye versiyonu tercih edilebilir.
-
+```java
 var start = System.nanoTime();
 // code
 var end = System.nanoTime();
 var seconds = (end - start) / 1_000_000_000.;
 System.out.printf("Duration: %f%n", seconds);
+```
 ---------------------------------------------
 ### Ders 7
 System sınıfının currentTimeMillis metodu 
