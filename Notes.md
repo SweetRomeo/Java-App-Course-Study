@@ -157,8 +157,9 @@ bir mesaj bilgisine sahiptir. Bu sayede proje geçmişi izlenebilir.
 ```bash
 git rm -r --cached .
 git rm -r --cached <çıkarılacak dosya>
-komutuyla gite eklenmiş olan dosyaları çıkarılabilir.
 ```
+komutlarıyla gite eklenmiş olan dosyaları çıkarılabilir.
+
 --------------------------------------------------------------
 ### Ders 11
 BigDecimal ve BigInteger
