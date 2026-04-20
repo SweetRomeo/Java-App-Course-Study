@@ -87,9 +87,10 @@ var sözcüğü kullanılan değişkenlerde type deduction gerçekleşir. Bu dur
 
 -> var sözcüğü bazı durumlarda anahtar sözcük olmayabilir. Çünkü var değişken ismi de olabilir. 
 Diğer taraftan var class ismi olamaz.
+```java
 int var = 10; // legal
 class var{} // error
-
+```
 Kodun Çalışma Süresinin ölçülmesi
 
 Özellikle performans hesaplama gibi çalışmalarda kod parçasının(code snippet) ne kadar sürede tamamlandığının ölçülmesi gerekebilir.
