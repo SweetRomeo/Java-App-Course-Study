@@ -154,10 +154,11 @@ bir mesaj bilgisine sahiptir. Bu sayede proje geçmişi izlenebilir.
 5-) Clone
 6-) Pull
 7-) Push
-
+```bash
 git rm -r --cached .
 git rm -r --cached <çıkarılacak dosya>
 komutuyla gite eklenmiş olan dosyaları çıkarılabilir.
+```
 --------------------------------------------------------------
 ### Ders 11
 BigDecimal ve BigInteger
