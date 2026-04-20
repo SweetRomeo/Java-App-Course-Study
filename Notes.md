@@ -138,7 +138,7 @@ ve güvenli bir biçimde yapılan işlemlerin geçmişini(history) tutabilmesidi
 da kopyalanıp aynı anda geliştirme yapılabilmektedir. Kendi localinde çalışan yazılımcılar aynı zamanda yaptıklarını ana bilgisayara da aktarabilirler ve bütün bu yapılanların
 geçmişi git tarafından tutulur. Kopyalayan kişi de kendi localinde bir geçmişe sahip olabilir. git üzerinde burada anlatılanlar ve diğer detaylar için bir terminoloji bulunmaktadır.
 
-git kurulumu
+# git kurulumu
 
 git komut satırından çalışan bir uygulamadır. Tipik olarak tüm sistemler için geliştirilmiştir. Unix/Linux sistemleri ve Mac OS X sistemleri için ilgili paket yöneticisi 
 kullanılarak kurulabilmektedir. Windows için git download bağlantısından kurulum detayları incelenebilir.
