@@ -1,4 +1,4 @@
-### Ders 1-2
+### Ders 1-2 
 Maven
 Maven'ın kendine özgü pek çok komutu vardır. Bu komutlar çalıştırılırken bir default directory oluşturulur.
 mvn clean install -> localde bulunan dependencyleri temizle ve maven centredan tekrar locale ekle
@@ -20,7 +20,7 @@ engellenir.
 Ancak, acemi bir programcı LibraryUsed kütüphanesinin .jar dosyasını projeye manuel olarak gömerse (örneğin build path'e doğrudan ekleyerek), bu durum isim aramada bir 
 karmaşaya, teknik adıyla Classpath Conflict (veya JAR Hell) sorununa sebebiyet verecektir. ClassLoader hangi JAR'daki sınıfları yükleyeceğini bilemeyeceği için çalışma 
 zamanında (runtime) öngörülemeyen hatalara yol açar.
--------------------------------------------------------
+
 ### Ders 3
 Maven ile kütüphane kullanımı
 Genel olarak bir kütüphane maven build aracı aşağıdakilerden biri ya da birkaçında kullanılabilir:
@@ -35,7 +35,7 @@ Mavenda bulunan dependencylerde Javadaki gibi bir arama söz konusudur. Bu arama
 1-) Maven Localde
 2-) Maven Centralda
 3-) Maven Remote Repository'den
---------------------------------------------------------------------------------
+
 ### Ders 4-5
 Yazılım Test Süreçleri:
 Javada kullanılan temel birim testi aracına JUnit adı verilir. Ancak Spring gibi popüler framework'lere ait olan ya da olmayan 
@@ -57,7 +57,6 @@ annotation'ı ile birlikte kullanılır. Bu annotationda belki değer kümeleri 
 -> @ValueSource annotation'ı ile doğrudan değerler test edilebileceği gibi dosya pathı verilerek txt gibi dosyalarla test yapılabilir.
 -> @CsvFileSource annotation'ı ile birlikte belirtilen pathteki csv dosyalarıyla test yapılması mümkündür.
 -> @Order(<sıra numarası>) annotation'ı kullanılarak testler programcının belirlediği sıraya göre yapılabilir.
---------------------------------------------------------------------------------
 ### Ders 6
 setup: Test metodunun çağrılmasından önce yapılması gereken ilk işlemlerdir.
 teardown: test metodunun çağrılmasından sonra yapılması gereken son işlemlerdir.
