@@ -70,8 +70,9 @@ var sözcüğü Java 10 ile birlikte dile eklenmiştir. var sonradan eklendiği 
 Bu tarz sözcüklere programlamada contextual keyword de denildiğini anımsayınız. var yalnızca yerel değişkenlerde ve Java 11 ile birlikte ileride ede alacağımız lambda ifadeleri
 ile birlikte kullanılabilmektedir. var değişkenlerin ilk değerlenmesi(initialize edilmesi) zorunludur.  
 
+'''java
 var a; // error
-
+'''
 Derleyici ilk değer verilen ifadenin türüne göre değişkenin türüne tespit eder. Derleyicinin bir değişkenin türünü tespit etmesi kavramına type inference ya da type deduction
 var sözcüğü kullanılan değişkenlerde type deduction gerçekleşir. Bu durum C++'daki auto anahtar sözcüğü ile benzerlik göstermektedir.
 
