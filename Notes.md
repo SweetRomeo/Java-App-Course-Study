@@ -171,6 +171,21 @@ sınıfı tercih edilmelidir.
 - BigInteger sınıfı içinse en büyük tamsayı türü olan long türünün dahi tutamayacağı değerleri tutmak için kullanılmaktadır.
 - BigDecimal sınıfının String parametreli ctor'u ile alınan yazı içsel olarak sayı biçiminde ele alınır. Bu durumda alınan yazı sayıya 
 çevrilmeyecek bir formattaysa exception oluşur.
+```java
+class Example
+{
+    public static BigDecimal sum(BigDecimal [] arr)
+    {
+        var total = BigDecimal.ZERO;
+        for (var element : arr)
+        {
+            total = total.add(element);
+        }
+        return total;
+    }
+}
+
+```
 // Notes
 Linux Commands
 useradd -m <user name>
