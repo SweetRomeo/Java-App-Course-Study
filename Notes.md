@@ -1,4 +1,4 @@
-Ders 1-2
+### Ders 1-2
 Maven
 Maven'ın kendine özgü pek çok komutu vardır. Bu komutlar çalıştırılırken bir default directory oluşturulur.
 mvn clean install -> localde bulunan dependencyleri temizle ve maven centredan tekrar locale ekle
@@ -35,7 +35,7 @@ Mavenda bulunan dependencylerde Javadaki gibi bir arama söz konusudur. Bu arama
 1-) Maven Localde
 2-) Maven Centralda
 3-) Maven Remote Repository'den
-
+--------------------------------------------------------------------------------
 Ders 4-5
 Yazılım Test Süreçleri:
 Javada kullanılan temel birim testi aracına JUnit adı verilir. Ancak Spring gibi popüler framework'lere ait olan ya da olmayan 
