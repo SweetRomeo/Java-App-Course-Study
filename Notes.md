@@ -161,7 +161,7 @@ git rm -r --cached <çıkarılacak dosya>
 komutlarıyla gite eklenmiş olan dosyaları çıkarılabilir.
 
 --------------------------------------------------------------
-### Ders 11
+### Ders 11-12
 BigDecimal ve BigInteger
 - BigDecimal ve BigInteger sınıfları kodda kullanılan primitive typeların(temel türlerin) yetersiz kaldığı durumlarda kullanılmaktadır.
 Bu tarz durumlar BigDecimal için double ve float gerçek sayı türlerindeki yuvarlama hatası durumlarından kaçınmak için tercih edilmektedir.
@@ -186,6 +186,8 @@ class Example
 }
 
 ```
+
+Bölme işlemi önemlidir. Bölme işlemi yapan metotlar(divide metotlar) sayının ondalık kısmının ne kadarının alınacağı ve geri kalan basamakların nasıl yuvarlanıcağı belirlenmelidir. Bu durumda tek parametreli divide metodunda elde edilen ondalık kısmı Matematiksel olarak sonsuz ise exception oluşur.
 // Notes
 Linux Commands
 useradd -m <user name>
