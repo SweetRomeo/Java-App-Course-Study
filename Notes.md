@@ -187,7 +187,10 @@ class Example
 
 ```
 
-Bölme işlemi önemlidir. Bölme işlemi yapan metotlar(divide metotlar) sayının ondalık kısmının ne kadarının alınacağı ve geri kalan basamakların nasıl yuvarlanıcağı belirlenmelidir. Bu durumda tek parametreli divide metodunda elde edilen ondalık kısmı Matematiksel olarak sonsuz ise exception oluşur.
+- Bölme işlemi önemlidir. Bölme işlemi yapan metotlar(divide metotlar) sayının ondalık kısmının ne kadarının alınacağı ve geri kalan basamakların nasıl yuvarlanıcağı
+belirlenmelidir. Bu durumda tek parametreli divide metodunda elde edilen ondalık kısmı Matematiksel olarak sonsuz ise exception oluşur.
+
+
 // Notes
 Linux Commands
 useradd -m <user name>
