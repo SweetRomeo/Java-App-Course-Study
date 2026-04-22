@@ -210,6 +210,10 @@ a.compareTo(b)
 şeklindedir.
 ### Ders 14
 BigInteger sınıfı
+- Big Integer sınıfının add metodu iki tane çok büyük sayıyı toplamak için kullanılabilir.
+- BigInteger sınıfının kendine özgü sabitleri vardır: ZERO, TWO, TEN
+- BigInteger sınıfının BigDecimal sınıfında olduğu gibi compareTo metodu vardır.
+
 
 // Notes
 Linux Commands
