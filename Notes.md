@@ -197,7 +197,17 @@ divide(BigDecimal divisor, int scale, RoundingMode roundingMode) -> Noktandan so
 divide(BigDecimal divisor, int roundingMode)
 - BigDecimal sınıfının setScale metodu ile scale ve rounding mode bilgisi değiştirilebilir. Şüphesiz bu metot ilgili bilgileri değiştirilmiş yeni bir BigDecimal nesnesinin
 referansını döner.(BigDecimal ve BigInteger sınıfları immutabledır.)
-
+- BigDecimal sınıfının compareTo metodu karşılaştırma işlemi yapar.
+```java
+a.compareTo(b)
+```
+çağrısı için geri dönüş değeri
+```
+-1 => a < b
+0 =>  a == b
+1 => a > b
+```
+şeklindedir.
 
 
 // Notes
