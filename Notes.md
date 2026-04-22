@@ -186,9 +186,18 @@ class Example
 }
 
 ```
-
+### Ders 13
 - Bölme işlemi önemlidir. Bölme işlemi yapan metotlar(divide metotlar) sayının ondalık kısmının ne kadarının alınacağı ve geri kalan basamakların nasıl yuvarlanıcağı
 belirlenmelidir. Bu durumda tek parametreli divide metodunda elde edilen ondalık kısmı Matematiksel olarak sonsuz ise exception oluşur.
+- BigDecimal sınıfının divide metodu kullanılarak bölme işlemi yapılabilir. divide metodunun overloadları aşağıdaki gibidir:
+divide(BigDecimal divisor)
+divide(BigDecimal divisor, MathContext mc)
+divide(BigDecimal divisor, RoundingMode roundingMode)
+divide(BigDecimal divisor, int scale, RoundingMode roundingMode) -> Noktandan sonra kaç basamağa kadar yuvarlanacağı ve geri kalan basamakların nasıl yuvarlanacağını belirler.
+divide(BigDecimal divisor, int roundingMode)
+- BigDecimal sınıfının setScale metodu ile scale ve rounding mode bilgisi değiştirilebilir. Şüphesiz bu metot ilgili bilgileri değiştirilmiş yeni bir BigDecimal nesnesinin
+referansını döner.(BigDecimal ve BigInteger sınıfları immutabledır.)
+
 
 
 // Notes
