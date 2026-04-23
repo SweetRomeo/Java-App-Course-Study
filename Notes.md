@@ -213,14 +213,16 @@ BigInteger sınıfı
 - Big Integer sınıfının add metodu iki tane çok büyük sayıyı toplamak için kullanılabilir.
 - BigInteger sınıfının kendine özgü sabitleri vardır: ZERO, TWO, TEN
 - BigInteger sınıfının BigDecimal sınıfında olduğu gibi compareTo metodu vardır. compareTo metodu java'da sıkça kullanılan bir metottur.
-- 
+
+Linux Kernel
+Linux düşünülenin aksine bir işletim sistemi değildir, Linux aslen bir Kernel projesidir. Bu kernel projesinin farklı dağıtımları mevcuttur. En popüler 
+Linux dağıtımlarından bazıları: Kali Linux, Linux Mint, Ubuntu'dur.
 
 
-// Notes
 Linux Commands
 useradd -m <user name>
-password policy: Kullanıcının belirlemiş olduğu şifrenin bazı şartları sağlaması gerekmektedir. Buna password policy ismi verilmektedir. Örneğin şifrede en az birer tane büyük
-ve küçük harf içerilmesi gibi zorunluluklar buna örnektir. Burada amaç şüphesiz şifrenin güvenilir olmasıdır.
+password policy: Kullanıcının belirlemiş olduğu şifrenin bazı şartları sağlaması gerekmektedir. Buna password policy ismi verilmektedir. Örneğin şifrede en az 
+birer tane büyük ve küçük harf içerilmesi gibi zorunluluklar buna örnektir. Burada amaç şüphesiz şifrenin güvenilir olmasıdır.
 pwd -> print working directory
 mkdir -> make directory
 İçinde bilgilerin bulunduğu ikincil belleklere dosya adı verilir.
