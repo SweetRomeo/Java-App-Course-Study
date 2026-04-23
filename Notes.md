@@ -214,10 +214,13 @@ BigInteger sınıfı
 - BigInteger sınıfının kendine özgü sabitleri vardır: ZERO, TWO, TEN
 - BigInteger sınıfının BigDecimal sınıfında olduğu gibi compareTo metodu vardır. compareTo metodu java'da sıkça kullanılan bir metottur.
 
+
+### Ders 15
 Linux Kernel
 Linux düşünülenin aksine bir işletim sistemi değildir, Linux aslen bir Kernel projesidir. Bu kernel projesinin farklı dağıtımları mevcuttur. En popüler 
 Linux dağıtımlarından bazıları: Kali Linux, Linux Mint, Ubuntu'dur.
-
+Linux dağıtımlarını desktop'a doğrudan kurmak mümkün olduğu gibi sanal makine olarak da kullanım mümkündür. Sanal makine olarak 
+çalıştırmak için kullanılan popüler uygulamalar Oracle VirtualBox ve VMWare programlarıdır.
 
 Linux Commands
 useradd -m <user name>
