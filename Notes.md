@@ -225,8 +225,14 @@ Linux dağıtımlarını desktop'a doğrudan kurmak mümkün olduğu gibi sanal 
 Kullanılan bütün komutlar çekirdek yani kernel ile birlikte gelmektedir. Kısaca çekirdeğe özgü özellik gösterirler.
 Komut adı altında söz edilen ifadeler aslında bir programı ifade edilmektedir. Yani komut çalıştırıldığında aslında
 arka planda program çalışmaktadır.
-1-) Kernel 
-2-) Shell: Arayüz 
+1-) Kernel(Çekirdek): Katman olarak en içte hardware olduğunu düşününce onu saran katmana Kernel adı verilir. Linux buna bir örnektir.
+Ubuntu, Linux Mint bir kernel örneği değildir. Bunlar Linux'un dağıtımlarıdır.
+2-) Shell: Kullanıcı ile Kernel arasındaki middle man adı verilen kullanıcı ile Kernel arasındaki köprüyü kuran, her iki tarafın dilini de konuşabilen o vazgeçilmez 
+arabulucudur. 
+
+Linux'un dizin yapısı
+
+
 
 Linux Commands
 useradd -m <user name>
