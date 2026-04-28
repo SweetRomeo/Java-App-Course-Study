@@ -231,7 +231,9 @@ Ubuntu, Linux Mint bir kernel örneği değildir. Bunlar Linux'un dağıtımlar�
 arabulucudur. 
 
 Linux'un dizin yapısı
-/bin: Burada kabul Shell(Kabuk) 
+- /bin: Burada kabul Shell(Kabuk) komutlarına ilişkin executable dosyalar ve 
+- /root:
+- /
 
 
 Linux Commands
