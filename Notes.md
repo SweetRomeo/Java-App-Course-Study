@@ -221,7 +221,12 @@ Linux düşünülenin aksine bir işletim sistemi değildir, Linux aslen bir Ker
 Linux dağıtımlarından bazıları: Kali Linux, Linux Mint, Debian, Ubuntu'dur.
 Linux dağıtımlarını desktop'a doğrudan kurmak mümkün olduğu gibi sanal makine olarak da kullanım mümkündür. Sanal makine olarak 
 çalıştırmak için kullanılan popüler uygulamalar Oracle VirtualBox ve VMWare programlarıdır.
-
+İşletim sistemlerinde iki önemli katmana sahiptir.
+Kullanılan bütün komutlar çekirdek yani kernel ile birlikte gelmektedir. Kısaca çekirdeğe özgü özellik gösterirler.
+Komut adı altında söz edilen ifadeler aslında bir programı ifade edilmektedir. Yani komut çalıştırıldığında aslında
+arka planda program çalışmaktadır.
+1-) Kernel 
+2-) Shell: Arayüz 
 
 Linux Commands
 useradd -m <user name>
