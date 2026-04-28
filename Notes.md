@@ -228,7 +228,7 @@ arka planda program çalışmaktadır.
 1-) Kernel(Çekirdek): Katman olarak en içte hardware olduğunu düşününce onu saran katmana Kernel adı verilir. Linux buna bir örnektir.
 Ubuntu, Linux Mint bir kernel örneği değildir. Bunlar Linux'un dağıtımlarıdır.
 2-) Shell(Kabuk): Kullanıcı ile Kernel arasındaki middle man adı verilen kullanıcı ile Kernel arasındaki köprüyü kuran, her iki tarafın dilini de konuşabilen o vazgeçilmez 
-arabulucudur. 
+arabulucudur. Buna örnek olarak UI(Windows için) ve Bash(Linux için) örnek verilebilir.
 
 Linux'un dizin yapısı
 - /bin: Burada kabul Shell(Kabuk) komutlarına ilişkin executable dosyalar ve çeşitli utility programlar bulunur.
