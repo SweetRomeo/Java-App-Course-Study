@@ -227,11 +227,11 @@ Komut adı altında söz edilen ifadeler aslında bir programı ifade edilmekted
 arka planda program çalışmaktadır.
 1-) Kernel(Çekirdek): Katman olarak en içte hardware olduğunu düşününce onu saran katmana Kernel adı verilir. Linux buna bir örnektir.
 Ubuntu, Linux Mint bir kernel örneği değildir. Bunlar Linux'un dağıtımlarıdır.
-2-) Shell: Kullanıcı ile Kernel arasındaki middle man adı verilen kullanıcı ile Kernel arasındaki köprüyü kuran, her iki tarafın dilini de konuşabilen o vazgeçilmez 
+2-) Shell(Kabuk): Kullanıcı ile Kernel arasındaki middle man adı verilen kullanıcı ile Kernel arasındaki köprüyü kuran, her iki tarafın dilini de konuşabilen o vazgeçilmez 
 arabulucudur. 
 
 Linux'un dizin yapısı
-
+/bin: Burada kabul Shell(Kabuk) 
 
 
 Linux Commands
