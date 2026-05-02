@@ -289,5 +289,7 @@ dendiğinde Windows işletim sisteminde temel işlemler yapmak için kullanılan
 
 Collection Arayüzü
 
-
-
+### Files Dersi
+# Javada File Sınıfı
+File Sınıfı: Bu sınıf bir dosya ya da dizine(directory) 
+File sınıfının isFile metodu 
