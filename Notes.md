@@ -232,9 +232,15 @@ arabulucudur. Buna örnek olarak UI(Windows için) ve Bash(Linux için) örnek v
 
 Linux'un dizin yapısı
 - /bin: Burada kabul Shell(Kabuk) komutlarına ilişkin executable dosyalar ve çeşitli utility programlar bulunur.
-- /sbin: Burada sisteme il
+- /sbin: Burada sisteme ilişkin aşağı seviyeli executable 
 - /boot: 
-- /lib: 
+- /lib:
+- /mnt: Kullanıcıların mount işlemi için kullanabilecekleri genel bir dizindir.
+- /root: Bu dizin root kullanıcısı için home dizini görevindedir.
+- /media: Bu dizin çıkarılabilir aygıtların (CDROM, Flash EPROM vb.) mount edildiği dizindir.
+- /usr: Burada kullanıcıların yerleştirdiği ya da install edildiği
+- /sys: Aygıt sürücülerin ve çekirdeğe ilişkin bazı dosyaların bulunduğu dizindir.
+- /tmp: Geçici dosyalar için bulundurulan bir dizindir. Genellikle sistem kapatılırken silinmektedir.
 
 
 Linux Commands
