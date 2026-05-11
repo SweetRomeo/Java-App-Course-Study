@@ -248,8 +248,11 @@ Linux'un dizin yapısı
 
 ### Ders 17
 
-#### İşletim Sistemlerinin Dosya Sistemeleri
+#### İşletim Sistemlerinin Dosya Sistemleri
 
+İçerisinde bilgilerin bulunduğu ikincil belleklerdeki (secondary memory) alanlara dosya(file) denir.
+Bu bilgiler sektör(sector) denilen okunabilen ve yazılabilen en küçük birimlerde tutulur. İşletim sistemleri 
+bu organize edilmiş
 Linux Commands
 useradd -m <user name>
 password policy: Kullanıcının belirlemiş olduğu şifrenin bazı şartları sağlaması gerekmektedir. Buna password policy ismi verilmektedir. Örneğin şifrede en az 
