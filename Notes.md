@@ -273,7 +273,16 @@ hem read hem write hem de executable izinler açıktır. Bu karakterler yerine '
 - chmod +r print.sh komutu dosyayı okuma iznini açmak için kullanılır.
 - chmod +w print.sh komutu dosyayı yazma iznini açmak için kullanılır.
 - Linuxta geçiş hakkı x olarak ifade edilebilir. Eğer bu hak yok ise bu directory den herhangi bir dosya silinemez hatta dizine geçilemez.
-- 
+- chmod ile 3 tane sayı karakterinden oluşan değerler kullanılabilir. bu değerlerin her biri octal sayı sistemine aittir. Örneğin 7 sayısı octala göre 111'i
+ifade ettiğinden dolayı read, write ve executable tüm izinleri açmak için kullanılır. 5 ise 101'e karşılık geldiği için read ve executable açık iken write özelliği kapalıdır.
+Buna göre:
+```bash
+chmod 751 deneme
+```
+komutu dosya için ls -l komutu çalıştırıldığındaki çıktının son 9 hanesini şu hale getirir.
+```bash
+rwxr-x--x
+```
 
 Gregorian Celandar ve Calender sınıfları
 ...
