@@ -273,19 +273,37 @@ hem read hem write hem de executable izinler açıktır. Bu karakterler yerine '
 - chmod +r print.sh komutu dosyayı okuma iznini açmak için kullanılır.
 - chmod +w print.sh komutu dosyayı yazma iznini açmak için kullanılır.
 - Linuxta geçiş hakkı x olarak ifade edilebilir. Eğer bu hak yok ise bu directory den herhangi bir dosya silinemez hatta dizine geçilemez.
-- chmod ile 3 tane sayı karakterinden oluşan değerler kullanılabilir. bu değerlerin her biri octal sayı sistemine aittir. Örneğin 7 sayısı octala göre 111'i
-ifade ettiğinden dolayı read, write ve executable tüm izinleri açmak için kullanılır. 5 ise 101'e karşılık geldiği için read ve executable açık iken write özelliği kapalıdır.
+- `chmod` ile 3 basamaklı sekizlik/octal izin değeri kullanılabilir. 
+Bu değerdeki her basamak, sırasıyla kullanıcı, grup ve diğer kullanıcılar için izinleri temsil eder.
+
+Örneğin `7` sayısı binary olarak `111` değerine karşılık gelir. Bu nedenle read, write ve execute izinlerinin tamamı açıktır. 
+`5` ise `101` değerine karşılık geldiği için read ve execute izinleri açıkken write izni kapalıdır.
+
+Kısaca:
+
+```bash
+read = 4
+write = 2
+execute = 1
+```
+Şeklinde ifade edilebilir.
+Yani:
+```bash
+7 = 4 + 2 + 1 = rwx
+5 = 4 + 0 + 1 = r-x
+1 = 0 + 0 + 1 = --x
+```
 Buna göre:
 ```bash
 chmod 751 deneme
 ```
-komutu dosya için ls -l komutu çalıştırıldığındaki çıktının son 9 hanesini şu hale getirir.
+komutu çalıştırıldığında, ls -l komutunun çıktısındaki izinlerin son 9 karakteri şu hale gelir:
 ```bash
 rwxr-x--x
 ```
-
 Gregorian Celandar ve Calender sınıfları
 ...
+
 
 API(Application Programming Interface) nedir?
 Bir yazılım sisteminde uygulama programcısının doğrudan erişebileceği veya çağırabileceği, o sistem ile uygulama programcısı arasında köprü 
