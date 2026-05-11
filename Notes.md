@@ -253,6 +253,7 @@ Linux'un dizin yapısı
 İçerisinde bilgilerin bulunduğu ikincil belleklerdeki (secondary memory) alanlara dosya(file) denir.
 Bu bilgiler sektör(sector) denilen okunabilen ve yazılabilen en küçük birimlerde tutulur. İşletim sistemleri 
 bu organize edilmiş
+
 Linux Commands
 useradd -m <user name>
 password policy: Kullanıcının belirlemiş olduğu şifrenin bazı şartları sağlaması gerekmektedir. Buna password policy ismi verilmektedir. Örneğin şifrede en az 
@@ -261,7 +262,10 @@ pwd -> print working directory
 mkdir -> make directory
 İçinde bilgilerin bulunduğu ikincil belleklere dosya adı verilir.
 Linux/Unix sistemlerinde dosya erişim hakları
-ls -l komutuyla kullanıcı bulunduğu dizindeki dosyaları, group id ve user idleri terminale bastırılır.
+ls -l komutuyla kullanıcı bulunduğu dizindeki dosyaları, group id ve user idleri terminale bastırılır
+Bu komut ile elde edilen çıktıdaki her karakterin bir anlamı vardır. Örneğin dosya izinleri için 'x'(executable), 'w'(write), 'r'(read) ifadeleridir.
+Çıktıda buluna son 3 karakter bu izinleri ifade etmektedir. Örneğin kullanıcı son üç karakterde "rwx" ifadesini görüyor ise bu durumda dosya 
+hem read hem write hem de executable izinler açıktır. Bu karakterler yerine '-' karakteri olması ise bu izinin kapalı olduğunu ifade etmektedir.
 - Dosyanın erişim hakları aslında dosya ile hangi işlemlerin yapılıp yapılamacağını belirtir.
 - Dosyanın erişim haklarını değiştirmek için chmod komutu kullanılmaktadır.
 - Directory'yi okuyabilmek demek o directory içerisindeki tüm dosyaların okuma hakkına sahip olması anlamına gelmektedir.
