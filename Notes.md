@@ -301,7 +301,17 @@ komutu çalıştırıldığında, ls -l komutunun çıktısındaki izinlerin son
 ```bash
 rwxr-x--x
 ```
+- `ls -l` komutu dosyanın içeriğini okumaz; dosyanın izin, sahiplik, boyut ve tarih gibi metadata bilgilerini listeler. 
+Bu nedenle bir dosyada `read` izni olmasa bile `ls -l` ile dosya bilgileri görüntülenebilir. 
+Ancak bir dizinin içeriğini listelemek için dizin üzerinde `read` izni gerekir. Gerekli izin yoksa `Permission denied` hatası alınabilir.
 
+- `cat` komutu yazma değil, okuma komutudur. Bu nedenle `cat` komutunun çalışabilmesi için dosya üzerinde `read` izni bulunmalıdır. 
+Eğer kullanıcı dosya üzerinde `read` iznine sahip değilse `Permission denied` hatası alınır.
+
+- Dosyaya yazma işlemleri için `write` izni gerekir. Örneğin `echo "Merhaba" > dosya.txt` komutu dosyaya yazmaya çalışır. 
+Eğer kullanıcı dosya üzerinde `write` iznine sahip değilse `Permission denied` hatası alınır.
+
+- `root` kullanıcısı veya `sudo` ile çalışan kullanıcılar çoğu izin kısıtlamasını aşabilir. Bu nedenle normal kullanıcıların erişemediği dosya veya dizinlere `sudo` ile erişmek genellikle mümkündür.
 
 
 Gregorian Celandar ve Calender sınıfları
