@@ -301,6 +301,9 @@ komutu çalıştırıldığında, ls -l komutunun çıktısındaki izinlerin son
 ```bash
 rwxr-x--x
 ```
+
+
+
 Gregorian Celandar ve Calender sınıfları
 ...
 
