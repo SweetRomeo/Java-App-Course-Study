@@ -313,8 +313,24 @@ Eğer kullanıcı dosya üzerinde `write` iznine sahip değilse `Permission deni
 
 - `root` kullanıcısı veya `sudo` ile çalışan kullanıcılar çoğu izin kısıtlamasını aşabilir. Bu nedenle normal kullanıcıların erişemediği dosya veya dizinlere `sudo` ile erişmek genellikle mümkündür.
 
-- Bir directory'e geçiş hakkı x(executable) ile ifade edilmektedir. Geçiş hakkına sahip olmayan kullanıcılar doğruya cd komutu dahi `Permission denied` hatasına neden olur.
-O dosyaya erişim mümkün değildir ancak dosya için touch komutuyla dosya oluşturulabilir.
+- Bir dizine geçiş hakkı `x` yani `execute` izni ile ifade edilir. 
+Bir kullanıcı dizin üzerinde `execute` iznine sahip değilse `cd` komutu ile o dizine girmeye çalıştığında `Permission denied` hatası alır.
+
+- Bir dizinin içeriğini listeleyebilmek için dizin üzerinde `read` izni gerekir. 
+Ancak dizin üzerinde sadece `read` izni olup `execute` izni yoksa dosya adları görülebilir fakat dosyaların detaylarına veya içeriklerine erişilemeyebilir.
+
+- Bir dizin içinde yeni dosya oluşturmak, dosya silmek veya dosya adını değiştirmek için dizin üzerinde `write` ve `execute` izinleri birlikte gereklidir. 
+Örneğin `touch yeniDosya.txt` komutunun çalışabilmesi için kullanıcının bulunduğu dizinde `w` ve `x` izinlerine sahip olması gerekir.
+
+- Bir dosyaya veri eklemek veya dosya içeriğini değiştirmek için dosya üzerinde `write` izni gerekir. 
+Aksi durumda `Permission denied` hatası oluşur.
+
+Kısaca:
+```bash
+Dizine girmek için        → x
+Dizini listelemek için    → r
+Dizinde dosya oluşturmak  → w + x
+```
 
 
 Gregorian Celandar ve Calender sınıfları
