@@ -313,6 +313,9 @@ Eğer kullanıcı dosya üzerinde `write` iznine sahip değilse `Permission deni
 
 - `root` kullanıcısı veya `sudo` ile çalışan kullanıcılar çoğu izin kısıtlamasını aşabilir. Bu nedenle normal kullanıcıların erişemediği dosya veya dizinlere `sudo` ile erişmek genellikle mümkündür.
 
+- Bir directory'e geçiş hakkı x(executable) ile ifade edilmektedir. Geçiş hakkına sahip olmayan kullanıcılar doğruya cd komutu dahi `Permission denied` hatasına neden olur.
+O dosyaya erişim mümkün değildir ancak dosya için touch komutuyla dosya oluşturulabilir.
+
 
 Gregorian Celandar ve Calender sınıfları
 ...
