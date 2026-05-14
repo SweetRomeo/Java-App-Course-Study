@@ -334,6 +334,8 @@ Dizinde dosya oluşturmak  → w + x
 
 ### Ders 18
 
+#### stdin, stdout ve stderr dosyaları
+Bir program çalıştığında 3 tane dosya açılır.
 
 Gregorian Celandar ve Calender sınıfları
 ...
